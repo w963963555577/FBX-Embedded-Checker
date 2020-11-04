@@ -25,7 +25,7 @@ public class FBXEmbeddedChecker : EditorWindow
     }
     */
     
-    [MenuItem("Funcy/FBX Embedded Checker")]
+    [MenuItem("Tools/FBX Embedded Checker")]
     public static void Open()
     {
         var editorList = Resources.FindObjectsOfTypeAll<FBXEmbeddedChecker>().ToList();
