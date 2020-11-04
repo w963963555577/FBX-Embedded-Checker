@@ -70,6 +70,7 @@ public class FBXEmbeddedChecker : EditorWindow
                 if (CheckFBXEmbeddedTextures(path))
                 {
                     fbxList.Add(AssetDatabase.LoadAssetAtPath<GameObject>(path));                    
+
                     Repaint();
                 }
                 await Task.Delay(10);
